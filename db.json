@@ -1,14 +1,60 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "Daniel"
-    }
+    "places": [
+      {
+        "id": 1,
+        "title": "Torre Eiffel",
+        "url":"https://viajes.nationalgeographic.com.es/medio/2019/03/29/torre-eiffel-hoy_f7a97d88_1200x1821.jpg",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1OQbSAYuTyNopE0is4yyUD30uUVr-i-wQlEnFXVyziDAXZkg&s",
+        "comments": ["Amazing Place"]
+      },
+      {
+        "id": 2,
+        "title": "Coliseo Romano",
+        "url":"https://historia.nationalgeographic.com.es/medio/2019/01/30/coliseo-romano_5a89138a_1200x630.jpg",
+        "thumbnailUrl": "https://static1.abc.es/media/cultura/2019/06/19/coliseo2-kPJB--620x349@abc.jpg",
+        "comments": []
+      },
+      {
+        "id": 3,
+        "title": "Machu picchu",
+        "url":"https://ichef.bbci.co.uk/news/976/cpsprodpb/6AFE/production/_102809372_machu.jpg",
+        "thumbnailUrl": "https://www.mundomapi.com/images/categories/tours-a-machu-picchu-1551460476.jpg",
+        "comments": []
+      },
+      {
+        "id": 4,
+        "title": "El Taj Mahal",
+        "url":"https://www.eluniversal.com.mx/sites/default/files/2018/07/16/taj_mahal_contaminacion.jpg",
+        "thumbnailUrl": "https://fotos02.laopiniondemurcia.es/2019/11/26/1024x341/taj-mahal-agra-india.jpg",
+        "comments": []
+      },
+      {
+        "id": 5,
+        "title": "Ópera de Sídney",
+        "url":"https://upload.wikimedia.org/wikipedia/commons/9/98/SydneyOperaHouse.jpg",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Opera_de_Sydney.png/250px-Opera_de_Sydney.png",
+        "comments": []
+      },
+      {
+        "id": 6,
+        "title": "Cristo Redentor",
+        "url":"https://sites.google.com/site/lospaisajesmagicosdelmundo/_/rsrc/1472776391389/el-cristo-redentor-brasil/cristo-redentor-riotur.jpg",
+        "thumbnailUrl": "https://rederiohoteis.com/wp-content/uploads/2017/09/2017-10-29-cristo-redentor-conhe%C3%A7a-a-historia-dessa-maravilha-do-mundo-moderno2.jpg",
+        "comments": []
+      },
+      {
+        "id": 7,
+        "title": "Chichén Itzá",
+        "url":"https://mymodernmet.com/wp/wp-content/uploads/2020/02/Chichen-Itza-3.jpg",
+        "thumbnailUrl": "https://www.ngenespanol.com/wp-content/uploads/2018/08/El-descubrimiento-en-el-templo-de-Kukulkan.jpg",
+        "comments": []
+      },
+      {
+        "id": 8,
+        "title": "Gran Muralla China",
+        "url":"https://historia.nationalgeographic.com.es/medio/2014/06/12/china2_1787x2000.jpg",
+        "thumbnailUrl": "https://guias-viajar.com/china/wp-content/uploads/2009/03/China-Gran-Muralla-Simatai-FB-001-2.jpg",
+        "comments": []
+      }
+    ]
   }
