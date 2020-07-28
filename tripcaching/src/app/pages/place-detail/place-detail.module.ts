@@ -4,18 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { PlacePageRoutingModule } from './place-routing.module';
+import { PlaceDetailPageRoutingModule } from './place-detail-routing.module';
 
-import { PlacePage } from './place.page';
-import { PlaceItemPage } from '../place-item/place-item.page'
+import { PlaceDetailPage } from './place-detail.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PlacePageRoutingModule
+    PlaceDetailPageRoutingModule
   ],
-  declarations: [PlacePage, PlaceItemPage]
+  declarations: [PlaceDetailPage]
 })
-export class PlacePageModule {}
+export class PlaceDetailPageModule {}

@@ -11,6 +11,15 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'place-detail',
+    loadChildren: () => import('./pages/place-detail/place-detail.module').then( m => m.PlaceDetailPageModule)
+  },
+  {
+    path: 'place-add',
+    loadChildren: () => import('./pages/place-add/place-add.module').then( m => m.PlaceAddPageModule)
+  },
+
 ];
 
 @NgModule({
