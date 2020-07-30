@@ -15,9 +15,9 @@ export class PlacePage implements OnInit {
   ngOnInit() {
     this.placesService.getPlaces().subscribe(
       (response: any) =>{
-        if(response.places){
-          console.log(response.places)
-          this.places=response.places;
+        if(response){
+          console.log(response)
+          this.places=response;
         }
       },
       (err) => {

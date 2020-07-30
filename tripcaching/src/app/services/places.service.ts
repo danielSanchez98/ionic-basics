@@ -9,11 +9,14 @@ import { observable } from 'rxjs';
   providedIn: "root"
 })
 export class PlacesService {
-  url ='https://my-json-server.typicode.com/danielsanchez98/ionic-basics/db';
+  url ='https://my-json-server.typicode.com/danielsanchez98/ionic-basics/places';
 
   constructor(private _http : HttpClient) { }
 
-  getPlaces(){
-    return this._http.get(this.url).pipe(map(res => res));
+  getPlaces(){ 
+    return  this._http.get(this.url).pipe(map(res => res));
+  }  
+  getPlace(id:string){
+    return  this._http.get(this.url+`/?id=${id}`).pipe(map(res => res));
   }
 }
